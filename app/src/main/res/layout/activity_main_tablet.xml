@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityTablet">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="418dp"
+        android:layout_height="262dp"
+        android:layout_marginBottom="31dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blue" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="184dp"
+        android:layout_height="207dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:srcCompat="@drawable/p1_removebg_preview"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/index_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="88dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/user_removebg_preview" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="199dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="25dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/student_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#78909C"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDate2"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/email" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="194dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="67dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#78909C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="76dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView25"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@drawable/calender_removebg_preview"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="202dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="64dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/birthdate"
+        android:inputType="date"
+        android:textColorHint="#78909C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="78dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="212dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/gender_removebg_preview"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonTablet"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/proceed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <EditText
+        android:id="@+id/editTextGender2"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:hint="@string/gender"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTablet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate2"
+        android:autofillHints="" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

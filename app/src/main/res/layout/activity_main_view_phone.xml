@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityViewPhone">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/name"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNameP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNameP"
+        android:layout_width="162dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="20dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="159dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/email_id"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textViewEmialP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameP" />
+
+    <TextView
+        android:id="@+id/textViewEmialP"
+        android:layout_width="234dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="6dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/bithdate"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textViewDateP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmialP" />
+
+    <TextView
+        android:id="@+id/textViewDateP"
+        android:layout_width="225dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="16dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="142dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="157dp"
+        android:text="@string/gender"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGenderP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDateP" />
+
+    <TextView
+        android:id="@+id/textViewGenderP"
+        android:layout_width="199dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="330dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+</androidx.constraintlayout.widget.ConstraintLayout>
